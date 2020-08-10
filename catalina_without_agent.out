@@ -26,7 +26,7 @@ Starting Liferay Community Edition Portal 7.3.1 CE GA2 (Athanasius / Build 7301 
 2020-08-10 08:56:33.613 INFO  [main][AutoDeployDir:205] Auto deploy scanner started for /opt/app/environment/liferay/runtime/deploy
 2020-08-10 08:56:44.271 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
 2020-08-10 08:56:44.570 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
-2020-08-10 08:56:47.170 INFO  [main][ThemeHotDeployListener:108] 1 theme for com.eskill.ui.theme is available for use
+2020-08-10 08:56:47.170 INFO  [main][ThemeHotDeployListener:108] 1 theme for com.es.ui.theme is available for use
 2020-08-10 08:56:47.354 INFO  [main][HookHotDeployListener:507] Hook for ui-hook is available for use
 2020-08-10 08:56:54.304 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
 10-Aug-2020 08:56:56.169 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [73,818] milliseconds
