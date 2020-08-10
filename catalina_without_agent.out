@@ -1,0 +1,32 @@
+10-Aug-2020 08:55:42.347 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [783] milliseconds
+Loading jar:file:/opt/app/environment/liferay/runtime/tomcat-9.0.33/webapps/ROOT/WEB-INF/lib/portal-impl.jar!/system.properties
+Loading jar:file:/opt/app/environment/liferay/runtime/tomcat-9.0.33/webapps/ROOT/WEB-INF/lib/portal-impl.jar!/portal.properties
+Loading file:/opt/app/environment/liferay/runtime/portal-ext.properties
+Loading file:/opt/app/environment/liferay/runtime/portal-setup-wizard.properties
+2020-08-10 08:55:44.482 INFO  [main][PortalContextLoaderListener:139] JVM arguments: -Djava.util.logging.config.file=/opt/app/environment/liferay/runtime/tomcat-9.0.33/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0022 -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/opt/app/environment/liferay/runtime/tomcat-9.0.33 -Dcatalina.home=/opt/app/environment/liferay/runtime/tomcat-9.0.33 -Djava.io.tmpdir=/opt/app/environment/liferay/runtime/tomcat-9.0.33/temp
+2020-08-10 08:55:47.219 INFO  [main][DialectDetector:159] Using dialect org.hibernate.dialect.PostgreSQLDialect for PostgreSQL 12.3
+2020-08-10 08:55:51.013 INFO  [main][ModuleFrameworkImpl:1533] Starting initial bundles
+2020-08-10 08:55:52.636 INFO  [main][ModuleFrameworkImpl:1819] Started initial bundles
+2020-08-10 08:55:52.638 INFO  [main][ModuleFrameworkImpl:1872] Starting dynamic bundles
+2020-08-10 08:56:05.175 INFO  [main][ModuleFrameworkImpl:1894] Started dynamic bundles
+2020-08-10 08:56:05.176 INFO  [main][ModuleFrameworkImpl:1901] Starting web bundles
+2020-08-10 08:56:07.991 INFO  [main][ModuleFrameworkImpl:1955] Started web bundles
+2020-08-10 08:56:07.994 INFO  [main][ModuleFrameworkImpl:407] Navigate to Control Panel > Configuration > Gogo Shell and enter "lb" to see all bundles
+2020-08-10 08:56:22.117 WARN  [Elasticsearch Initialization Thread][EmbeddedElasticsearchConnection:296] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Refer to the documentation for details on the limitations of embedded Elasticsearch. Remote Elasticsearch connections can be configured in the Control Panel.
+
+    __    ____________________  _____  __
+   / /   /  _/ ____/ ____/ __ \/   \ \/ /
+  / /    / // /_  / __/ / /_/ / /| |\  /
+ / /____/ // __/ / /___/ _, _/ ___ |/ /
+/_____/___/_/   /_____/_/ |_/_/  |_/_/
+
+Starting Liferay Community Edition Portal 7.3.1 CE GA2 (Athanasius / Build 7301 / March 24, 2020)
+
+2020-08-10 08:56:32.249 INFO  [main][StartupHelperUtil:99] There are no patches installed
+2020-08-10 08:56:33.613 INFO  [main][AutoDeployDir:205] Auto deploy scanner started for /opt/app/environment/liferay/runtime/deploy
+2020-08-10 08:56:44.271 INFO  [main][ThemeHotDeployListener:108] 1 theme for admin-theme is available for use
+2020-08-10 08:56:44.570 INFO  [main][ThemeHotDeployListener:108] 1 theme for classic-theme is available for use
+2020-08-10 08:56:47.170 INFO  [main][ThemeHotDeployListener:108] 1 theme for com.eskill.ui.theme is available for use
+2020-08-10 08:56:47.354 INFO  [main][HookHotDeployListener:507] Hook for ui-hook is available for use
+2020-08-10 08:56:54.304 INFO  [main][SystemCheckOSGiCommands:59] System check is enabled. You can run a system check with the command "system:check" in Gogo shell.
+10-Aug-2020 08:56:56.169 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [73,818] milliseconds
